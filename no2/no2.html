@@ -1,0 +1,402 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>2#&#26426;&#21608;&#25968;&#25454;&#20998;&#26512;</title><meta name="generator" content="MATLAB 9.3"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2018-11-05"><meta name="DC.source" content="no2.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h1>2#&#26426;&#21608;&#25968;&#25454;&#20998;&#26512;</h1><!--introduction--><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#2">1&#12289;&#20135;&#37327;&#25968;&#25454;&#20998;&#26512;</a></li><li><a href="#3">2&#12289;&#21367;&#28895;&#26426;&#12289;&#21253;&#35013;&#26426;&#20572;&#26426;&#27425;&#25968;&#23545;&#27604;</a></li><li><a href="#4">3&#12289;&#21367;&#28895;&#26426;&#12289;&#21253;&#35013;&#26426;&#21076;&#38500;&#23545;&#27604;</a></li><li><a href="#5">4&#12289;&#20572;&#26426;&#25925;&#38556;&#20998;&#26512;</a></li><li><a href="#6">5&#12289;&#21076;&#38500;&#25968;&#25454;&#20998;&#26512;</a></li></ul></div><p><img vspace="5" hspace="5" src="I:\2018%E5%B9%B4\DataAnalysis\FOCKE700.PNG" alt=""> </p><h2 id="2">1&#12289;&#20135;&#37327;&#25968;&#25454;&#20998;&#26512;</h2><pre>&#30456;&#21516;&#26426;&#22411;&#29983;&#20135;&#20135;&#37327;&#25968;&#25454;&#23545;&#27604;</pre><img vspace="5" hspace="5" src="no2_01.png" alt=""> <h2 id="3">2&#12289;&#21367;&#28895;&#26426;&#12289;&#21253;&#35013;&#26426;&#20572;&#26426;&#27425;&#25968;&#23545;&#27604;</h2><pre>&#30456;&#21516;&#26426;&#22411;&#21367;&#28895;&#26426;&#12289;&#21253;&#35013;&#26426;&#20572;&#26426;&#27425;&#25968;&#23545;&#27604;</pre><img vspace="5" hspace="5" src="no2_02.png" alt=""> <img vspace="5" hspace="5" src="no2_03.png" alt=""> <h2 id="4">3&#12289;&#21367;&#28895;&#26426;&#12289;&#21253;&#35013;&#26426;&#21076;&#38500;&#23545;&#27604;</h2><pre>&#30456;&#21516;&#26426;&#22411;&#21367;&#28895;&#26426;&#12289;&#21253;&#35013;&#26426;&#21076;&#38500;&#25968;&#23545;&#27604;</pre><img vspace="5" hspace="5" src="no2_04.png" alt=""> <img vspace="5" hspace="5" src="no2_05.png" alt=""> <h2 id="5">4&#12289;&#20572;&#26426;&#25925;&#38556;&#20998;&#26512;</h2><pre>&#21367;&#28895;&#26426;&#20572;&#26426;&#25925;&#38556;&#21407;&#22240;&#12289;&#21253;&#35013;&#26426;&#20572;&#26426;&#25925;&#38556;&#21407;&#22240;</pre><img vspace="5" hspace="5" src="no2_06.png" alt=""> <img vspace="5" hspace="5" src="no2_07.png" alt=""> <h2 id="6">5&#12289;&#21076;&#38500;&#25968;&#25454;&#20998;&#26512;</h2><p>&#21367;&#28895;&#26426;&#21076;&#38500;&#21407;&#22240;&#12289;&#21253;&#35013;&#26426;&#21076;&#38500;&#21407;&#22240;</p><img vspace="5" hspace="5" src="no2_08.png" alt=""> <img vspace="5" hspace="5" src="no2_09.png" alt=""> <p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2017b</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%% 2#机周数据分析
+%%
+% 
+% <<I:\2018年\DataAnalysis\FOCKE700.PNG>>
+% 
+
+%% 1、产量数据分析
+%  相同机型生产产量数据对比
+% 
+%  
+[~, desc, ~] = xlsfinfo('数据分析表.xlsx');
+sheets=length(desc)/2;
+% 读取源数据
+for i=1:sheets
+[num{i},txt{i},~] = xlsread('数据分析表.xlsx',desc{i}); 
+end
+%计算行列
+[row,colume]=size(num{1,1});
+%提取出字符串数据xlsfinfo
+for i=1:row
+    y_label{i}=char(txt{1,1}{i+1,1});
+end
+% 进行产量数据的显示
+raw_cl=zeros(row,1);
+for i=1:sheets
+raw_cl=raw_cl+num{1,i}(:,1);
+end
+mean_cl=mean(raw_cl);
+
+%对数据进行大小排列
+[process_cl,index]=sort(raw_cl);
+
+for i=1:row
+    y_labelOK{i}=y_label{index(i)};
+end
+%加入平均数据
+
+% 创建 figure
+figure1 = figure;
+
+% 创建 axes
+y=[1:row];
+axes1 = axes('Parent',figure1,'YTickLabel',y_labelOK,'YTick',y);
+hold(axes1,'on');
+% 创建 bar
+barh(process_cl);
+
+% 创建 ylabel
+ylabel('机台','FontName','微软雅黑');
+
+% 创建 xlabel
+xlabel({'产量(箱)'},'FontName','微软雅黑');
+
+% 创建 title
+title('PROTOS2-FOCKE700机型产量对比图','FontWeight','bold','FontSize',16);
+
+%做平均线
+hold on
+plot([mean_cl,mean_cl],[0,row+1],'red')
+%产生数字
+for i = 1:row
+text(process_cl(i)+0.5,y(i),num2str(process_cl(i)));
+end
+
+%% 2、卷烟机、包装机停机次数对比
+%  相同机型卷烟机、包装机停机次数对比
+% 
+%  
+raw_jt=zeros(row,1);
+for i=1:sheets
+    raw_jt=raw_jt+num{1,i}(:,8); 
+end
+mean_jt=mean(raw_jt);
+
+%对数据进行大小排列
+[process_jt,index]=sort(raw_jt);
+
+for i=1:row
+    y_labelOK{i}=y_label{index(i)};
+end
+%加入平均数据
+
+% 创建 figure
+figure2 = figure;
+
+% 创建 axes
+y=[1:row];
+axes2 = axes('Parent',figure2,'YTickLabel',y_labelOK,'YTick',y);
+hold(axes2,'on');
+% 创建 bar
+barh(process_jt);
+
+% 创建 ylabel
+ylabel('机台','FontName','微软雅黑');
+
+% 创建 xlabel
+xlabel({'卷烟机停机(次)'},'FontName','微软雅黑');
+
+% 创建 title
+title('PROTOS2停机次数对比图','FontWeight','bold','FontSize',16);
+
+%做平均线
+hold on
+plot([mean_jt,mean_jt],[0,row+1],'red')
+%产生数字
+for i = 1:row
+text(process_jt(i)+0.5,y(i),num2str(process_jt(i)));
+end
+
+% 进行包装停机次数统计
+raw_bt=zeros(row,1);
+for i=1:sheets
+    raw_bt=raw_bt+num{1,i}(:,9); 
+end
+mean_bt=mean(raw_bt);
+
+%对数据进行大小排列
+[process_bt,index]=sort(raw_bt);
+
+for i=1:row
+    y_labelOK{i}=y_label{index(i)};
+end
+%加入平均数据
+
+% 创建 figure
+figure3 = figure;
+
+% 创建 axes
+y=[1:row];
+axes3 = axes('Parent',figure3,'YTickLabel',y_labelOK,'YTick',y);
+hold(axes3,'on');
+% 创建 bar
+barh(process_bt);
+
+% 创建 ylabel
+ylabel('机台','FontName','微软雅黑');
+
+% 创建 xlabel
+xlabel({'包装机停机(次)'},'FontName','微软雅黑');
+
+% 创建 title
+title('FOCKE700停机次数对比图','FontWeight','bold','FontSize',16);
+
+%做平均线
+hold on
+plot([mean_bt,mean_bt],[0,row+1],'red')
+%产生数字
+for i = 1:row
+text(process_bt(i)+0.5,y(i),num2str(process_bt(i)));
+end
+
+
+%% 3、卷烟机、包装机剔除对比
+%  相同机型卷烟机、包装机剔除数对比
+% 
+%  
+
+% 进行卷烟机剔除数统计
+raw_jtc=zeros(row,1);
+for i=1:sheets
+    raw_jtc=raw_jtc+num{1,i}(:,11); 
+end
+mean_jtc=mean(raw_jtc);
+
+%对数据进行大小排列
+[process_jtc,index]=sort(raw_jtc);
+
+for i=1:row
+    y_labelOK{i}=y_label{index(i)};
+end
+%加入平均数据
+
+% 创建 figure
+figure4 = figure;
+
+% 创建 axes
+y=[1:row];
+axes4 = axes('Parent',figure4,'YTickLabel',y_labelOK,'YTick',y);
+hold(axes4,'on');
+% 创建 bar
+barh(process_jtc);
+
+% 创建 ylabel
+ylabel('机台','FontName','微软雅黑');
+
+% 创建 xlabel
+xlabel({'卷烟机剔除(支)'},'FontName','微软雅黑');
+
+% 创建 title
+title('PROTOS2剔除支数对比图','FontWeight','bold','FontSize',16);
+
+%做平均线
+hold on
+plot([mean_jtc,mean_jtc],[0,row+1],'red')
+%产生数字
+for i = 1:row
+text(process_jtc(i)+0.5,y(i),num2str(process_jtc(i)));
+end
+% 进行包装剔除包数统计
+raw_btc=zeros(row,1);
+for i=1:sheets
+    raw_btc=raw_btc+num{1,i}(:,12); 
+end
+mean_btc=mean(raw_btc);
+
+%对数据进行大小排列
+[process_btc,index]=sort(raw_btc);
+
+for i=1:row
+    y_labelOK{i}=y_label{index(i)};
+end
+%加入平均数据
+
+% 创建 figure
+figure5 = figure;
+
+% 创建 axes
+y=[1:row];
+axes5 = axes('Parent',figure5,'YTickLabel',y_labelOK,'YTick',y);
+hold(axes5,'on');
+% 创建 bar
+barh(process_btc);
+
+% 创建 ylabel
+ylabel('机台','FontName','微软雅黑');
+
+% 创建 xlabel
+xlabel({'包装机剔除(包)'},'FontName','微软雅黑');
+
+% 创建 title
+title('FOCKE700剔除包数对比图','FontWeight','bold','FontSize',16);
+
+%做平均线
+hold on
+plot([mean_btc,mean_btc],[0,row+1],'red')
+%产生数字
+for i = 1:row
+text(process_btc(i)+0.5,y(i),num2str(process_btc(i)));
+end
+clc;clear;
+
+%% 4、停机故障分析
+%  卷烟机停机故障原因、包装机停机故障原因
+%  
+%  
+
+jx_char={{'A2','B2:C4','B1','D2:E4','D1','H2:I4','H1','J2:K4','J1'};
+    {'A5','B5:C7','B1','D5:E7','D1','H5:I7','H1','J5:K7','J1'};
+    {'A8','B8:C10','B1','D8:E20','D1','H8:I10','H1','J8:K10','J1'};
+    {'A11','B11:C13','B1','D11:E13','D1','H11:I13','H1','J11:K13','J1'};
+    {'A14','B14:C17','B1','D14:E17','D1','H14:I17','H1','J14:K17','J1'}};
+ jx=2;
+[~, desc, ~] = xlsfinfo('数据分析表.xlsx');
+sheets=length(desc)/2;
+% 读取源数据
+for i=1:sheets
+[~,~,CauseAnaly{i}] = xlsread('数据分析表.xlsx',desc{sheets+i},jx_char{jx,1}{1,2}); 
+end
+% 卷烟停机主因
+CauseAnalysis=[CauseAnaly{1,1};CauseAnaly{1,2};CauseAnaly{1,3};CauseAnaly{1,4};CauseAnaly{1,5};CauseAnaly{1,6}];
+% 横坐标字符串
+[~,xaxisname,~] = xlsread('数据分析表.xlsx',desc{sheets+1},jx_char{jx,1}{1,3}); 
+xaxisname=cell2mat(xaxisname);
+% 标题
+[~,titlename,~] = xlsread('数据分析表.xlsx',desc{sheets+1},jx_char{jx,1}{1,1}); 
+titlename=cell2mat(titlename);
+% 组成分析数据
+[row,colume]=size(CauseAnalysis);
+% 进行数据分析与绘图
+mergeAnalysis(CauseAnalysis,titlename,xaxisname,row);
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[~, desc, ~] = xlsfinfo('数据分析表.xlsx');
+sheets=length(desc)/2;
+% 读取源数据
+for i=1:sheets
+[~,~,CauseAnaly{i}] = xlsread('数据分析表.xlsx',desc{sheets+i},jx_char{jx,1}{1,4}); 
+end
+% 包装机停机主因
+CauseAnalysis=[CauseAnaly{1,1};CauseAnaly{1,2};CauseAnaly{1,3};CauseAnaly{1,4};CauseAnaly{1,5};CauseAnaly{1,6}];
+% 横坐标字符串
+[~,xaxisname,~] = xlsread('数据分析表.xlsx',desc{sheets+1},jx_char{jx,1}{1,5}); 
+xaxisname=cell2mat(xaxisname);
+% 标题
+[~,titlename,~] = xlsread('数据分析表.xlsx',desc{sheets+1},jx_char{jx,1}{1,1}); 
+titlename=cell2mat(titlename);
+% 组成分析数据
+[row,colume]=size(CauseAnalysis);
+% 进行数据分析与绘图
+mergeAnalysis(CauseAnalysis,titlename,xaxisname,row);
+
+%% 5、剔除数据分析
+% 卷烟机剔除原因、包装机剔除原因
+%  
+% 
+[~, desc, ~] = xlsfinfo('数据分析表.xlsx');
+sheets=length(desc)/2;
+% 卷烟机剔除原因分析
+for i=1:sheets
+[~,~,CauseAnaly{i}] = xlsread('数据分析表.xlsx',desc{sheets+i},jx_char{jx,1}{1,6}); 
+end
+% 包装机停机主因
+CauseAnalysis=[CauseAnaly{1,1};CauseAnaly{1,2};CauseAnaly{1,3};CauseAnaly{1,4};CauseAnaly{1,5};CauseAnaly{1,6}];
+% 横坐标字符串
+[~,xaxisname,~] = xlsread('数据分析表.xlsx',desc{sheets+1},jx_char{jx,1}{1,7}); 
+xaxisname=cell2mat(xaxisname);
+% 标题
+[~,titlename,~] = xlsread('数据分析表.xlsx',desc{sheets+1},jx_char{jx,1}{1,1}); 
+titlename=cell2mat(titlename);
+% 组成分析数据
+[row,colume]=size(CauseAnalysis);
+% 进行数据分析与绘图
+mergeAnalysis(CauseAnalysis,titlename,xaxisname,row);
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 包装机剔除原因分析
+for i=1:sheets
+[~,~,CauseAnaly{i}] = xlsread('数据分析表.xlsx',desc{sheets+i},jx_char{jx,1}{1,8}); 
+end
+% 包装机停机主因
+CauseAnalysis=[CauseAnaly{1,1};CauseAnaly{1,2};CauseAnaly{1,3};CauseAnaly{1,4};CauseAnaly{1,5};CauseAnaly{1,6}];
+% 横坐标字符串
+[~,xaxisname,~] = xlsread('数据分析表.xlsx',desc{sheets+1},jx_char{jx,1}{1,9}); 
+xaxisname=cell2mat(xaxisname);
+% 标题
+[~,titlename,~] = xlsread('数据分析表.xlsx',desc{sheets+1},jx_char{jx,1}{1,1}); 
+titlename=cell2mat(titlename);
+% 组成分析数据
+[row,colume]=size(CauseAnalysis);
+% 进行数据分析与绘图
+mergeAnalysis(CauseAnalysis,titlename,xaxisname,row);
+
+##### SOURCE END #####
+--></body></html>
